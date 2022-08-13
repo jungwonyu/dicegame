@@ -10,10 +10,12 @@ import diceRed03 from './assets/dice-red-3.svg';
 import diceRed04 from './assets/dice-red-4.svg';
 import diceRed05 from './assets/dice-red-5.svg';
 import diceRed06 from './assets/dice-red-6.svg';
+import logo from './assets/logo.png';
 
 const DICE_IMAGE = {
     blue: [diceBlue01, diceBlue02, diceBlue03, diceBlue04, diceBlue05, diceBlue06],
     red: [diceRed01, diceRed02, diceRed03, diceRed04, diceRed05, diceRed06],
+    logo: [logo],
 };
 
 function Dice({color = "blue", num = 1}) {
