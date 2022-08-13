@@ -9,7 +9,7 @@
 - 실행 중인 서버 종료하기: ctrl + c
 - 개발된 프로젝트 빌드하기: npm run build
 - 빌드한 것 로컬에서 실행하기: npx serve build
-#### 공부내용
+##### 공부내용
 - JSX
 - 컴포넌트
 - Props
